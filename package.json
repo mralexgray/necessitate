@@ -1,6 +1,6 @@
 {
   "name": "need",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Easily require modules, even with custom names, using strings, arrays, or hashes.",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   "dependencies": {
     "coffee-script": "^1.10.0"
   },
-  "dev-dependencies": {
+  "devDependencies": {
     "nodeunit" : "*"
   }
 }
