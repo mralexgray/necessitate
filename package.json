@@ -1,0 +1,31 @@
+{
+  "name": "need",
+  "version": "1.0.0",
+  "description": "Easily require modules, even with custom names, using strings, arrays, or hashes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mralexgray/need.git"
+  },
+  "keywords": [
+    "require",
+    "module",
+    "global",
+    "coffee"
+  ],
+  "author": "Alex Gray <alex@mrgray.com> (http://mrgray.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mralexgray/need/issues"
+  },
+  "homepage": "https://github.com/mralexgray/need#readme",
+  "dependencies": {
+    "coffee-script": "^1.10.0"
+  },
+  "dev-dependencies": {
+    "nodeunit" : "*"
+  }
+}
