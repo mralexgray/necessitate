@@ -4,17 +4,17 @@ testModule = function(mod){ console.log(mod.isArray([])); }
 /* creates a global 'need' function once required */
 require('./')
 /* then, you can "need" a module, by string name */
-need('underscore')
+need("underscore")
 testModule(underscore)
 
 /* also, returns a local function, with same functionality as the global "need" */
-n = require('./')
+n = require("./")
 /* require with a hash, mapping your imported module (value) to any name (key) */
-n({_:'underscore'})
+n({_:"underscore"})
 testModule(_)
 
 /* use your array, string or hash when requring, all your imports.. on one line! */
-require('./')(['underscore'])
+require('./')(["underscore"])
 testModule(underscore)
 
 /* RESULTS:
@@ -26,5 +26,6 @@ arguments are [object Object]
 true
 arguments are underscore
 [need]	Requiring underscore, as underscore.
+true
 
 */
