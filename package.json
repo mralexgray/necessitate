@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "nodeunit",
-    "readme": "readme package.json --tests --travis > README.md"
+    "readme": "readme package.json --tests --travis > README.md",
+    "prepublish" : "npm run readme"
   },
   "repository": {
     "type": "git",

@@ -10,6 +10,41 @@ Download node at [nodejs.org](http://nodejs.org) and install it, if you haven't 
 npm install need --save
 ```
 
+## Usage
+
+```js
+
+testModule = function(mod){ console.log(mod.isArray([])); }
+
+/* creates a global 'need' function once required */
+require("need")
+/* then, you can "need" a module, by string name */
+need('underscore')
+testModule(underscore)
+
+/* also, returns a local function, with same functionality as the global "need" */
+n = require('./')
+/* require with a hash, mapping your imported module (value) to any name (key) */
+n({_:'underscore'})
+testModule(_)
+
+/* use your array, string or hash when requring, all your imports.. on one line! */
+require('./')(['underscore'])
+testModule(underscore)
+
+/* RESULTS:
+
+[need]	Requiring underscore, as underscore.
+true
+arguments are [object Object]
+[need]	Requiring underscore, as _.
+true
+arguments are underscore
+[need]	Requiring underscore, as underscore.
+
+*/
+
+```
 
 ## Tests
 
@@ -25,10 +60,11 @@ need.test
 [need]	Requiring underscore, as underscore.
 ✔ should create "need", a global function
 ✔ should export a function, by default
+arguments are [object Object]
 [need]	Requiring underscore, as __.
 [need]	Requiring nodeunit, as nu.
 ✔ can be loaded with a hash of requires, which requires, and return a function
-OK: 15 assertions (176ms)
+OK: 15 assertions (128ms)
 
 ```
 
