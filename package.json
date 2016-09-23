@@ -1,6 +1,6 @@
 {
   "name": "need",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Easily require modules, even with custom names, using strings, arrays, or hashes.",
   "main": "index.js",
   "scripts": {
