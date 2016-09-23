@@ -15,7 +15,7 @@ module.exports =
     cb()
   'should create "need", a global function': (t) ->
     t.ok (not underscore? and not need?), 'we should have neither'
-    require('../')()
+    require('../')
     t.ok need?, 'should make a global object'
     t.ok _.isFunction need, 'it should be a function'
     x = need 'underscore'
@@ -23,7 +23,7 @@ module.exports =
     t.ok underscore
     t.done()
   'should export a function, by default': (t) ->
-    t.doesNotThrow -> n = require('../')()
+    t.doesNotThrow -> n = require('../')
     t.ok n?, 'requring indeed exports something'
     t.ok _.isFunction n, 'that something... is also a function'
     t.done()
