@@ -1,4 +1,4 @@
-# need 
+# need [![Build Status](https://travis-ci.org/mralexgray/need.png?branch=master)](https://travis-ci.org/mralexgray/need)
 
 Easily require modules, even with custom names, using strings, arrays, or hashes.
 
@@ -17,15 +17,31 @@ npm install need --save
 npm install
 npm test
 ```
+```
+
+> need@0.0.1 test /Volumes/5T/ServiceData/node/need
+> nodeunit
+need.test
+[need]	Requiring underscore, as underscore.
+✔ should create "need", a global function
+✔ should export a function, by default
+[need]	Requiring underscore, as __.
+[need]	Requiring nodeunit, as nu.
+✔ can be loaded with a hash of requires, which requires, and return a function
+OK: 15 assertions (176ms)
+
+```
 
 ## Dependencies
 
 - [coffee-script](https://github.com/jashkenas/coffeescript): Unfancy JavaScript
+- [underscore](https://github.com/jashkenas/underscore): JavaScript&#39;s functional programming helper library.
 
 ## Dev Dependencies
 
+- [nodeunit](https://github.com/caolan/nodeunit): Easy unit testing for node.js and the browser.
+- [package-json-to-readme](https://github.com/zeke/package-json-to-readme): Generate a README.md from package.json contents
 
-None
 
 ## License
 

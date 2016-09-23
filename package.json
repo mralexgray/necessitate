@@ -4,7 +4,8 @@
   "description": "Easily require modules, even with custom names, using strings, arrays, or hashes.",
   "main": "index.js",
   "scripts": {
-    "test": "nodeunit"
+    "test": "nodeunit",
+    "readme": "readme package.json --tests --travis > README.md"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "underscore": "^1.8.3"
   },
   "devDependencies": {
-    "nodeunit": "*"
+    "nodeunit": "*",
+    "package-json-to-readme": "^1.5.1"
   }
 }
