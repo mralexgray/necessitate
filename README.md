@@ -1,4 +1,4 @@
-<img src="logo.svg">
+<img src="//rawgithub.com/mralexgray/necessitate/master/logo.svg">
 
 <!--@shields.flatSquare('travis','npm')-->
 [![Build Status](https://img.shields.io/travis/mralexgray/necessitate/master.svg?style=flat-square)](https://travis-ci.org/mralexgray/necessitate) [![npm version](https://img.shields.io/npm/v/necessitate.svg?style=flat-square)](https://www.npmjs.com/package/necessitate)
