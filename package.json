@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "nodeunit",
-    "readme": "readme package.json --tests --travis > README.md",
-    "prepublish" : "npm run readme"
+    "readme": "mos",
+    "readme.off": "readme package.json --tests --travis > README.md",
+    "prepublish": "npm run readme"
   },
   "repository": {
     "type": "git",
@@ -29,7 +30,7 @@
     "underscore": "^1.8.3"
   },
   "devDependencies": {
-    "nodeunit": "*",
-    "package-json-to-readme": "^1.5.1"
+    "mos": "^1.3.1",
+    "nodeunit": "*"
   }
 }
