@@ -1,6 +1,6 @@
 {
   "name": "necessitate",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Easily require modules, even with custom names, using strings, arrays, or hashes.",
   "main": "index.js",
   "scripts": {
