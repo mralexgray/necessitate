@@ -1,5 +1,5 @@
 {
-  "name": "need",
+  "name": "necessitate",
   "version": "0.0.2",
   "description": "Easily require modules, even with custom names, using strings, arrays, or hashes.",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mralexgray/need.git"
+    "url": "git+https://github.com/mralexgray/necessitate.git"
   },
   "keywords": [
     "require",
@@ -22,9 +22,9 @@
   "author": "Alex Gray <alex@mrgray.com> (http://mrgray.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mralexgray/need/issues"
+    "url": "https://github.com/mralexgray/necessitate/issues"
   },
-  "homepage": "https://github.com/mralexgray/need#readme",
+  "homepage": "https://github.com/mralexgray/necessitate",
   "dependencies": {
     "coffee-script": "^1.10.0",
     "underscore": "^1.8.3"

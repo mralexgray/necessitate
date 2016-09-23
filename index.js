@@ -1,3 +1,3 @@
 
 require('coffee-script/register')
-module.exports = require('./need')
+module.exports = require('./module')

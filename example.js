@@ -2,7 +2,7 @@
 //! creates a global 'need' function once required
 require('./')
 //! then, you can "need" a module, by string name
-need("underscore")
+necessitate("underscore")
 
 //! also, returns a local function, with same functionality as the global "need"
 n = require("./")
