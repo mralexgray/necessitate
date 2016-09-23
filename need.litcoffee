@@ -25,9 +25,5 @@ Private utility function that does the actual work.
 
 	module.exports = ->
 
-
-		if arguments.length == 1
-			console.log "arguments are #{arguments[0]}"
-		# not _.isEmpty(x)
-			needfn arguments[0]
+		needfn arguments[0] if arguments.length == 1 # not _.isEmpty(x)
 		needfn
