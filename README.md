@@ -1,13 +1,14 @@
+![Logo](http://www.corpuscoli.com/wp-content/uploads/2015/04/logo-need-design-news-corpuscoli-montalti.png)
+
 <!--@h1([pkg.name])-->
 # need
+<!--/@-->
+<!--@shields.flatSquare('travis','npm')-->
+[![Build Status](https://img.shields.io/travis/mralexgray/need/master.svg?style=flat-square)](https://travis-ci.org/mralexgray/need) [![npm version](https://img.shields.io/npm/v/need.svg?style=flat-square)](https://www.npmjs.com/package/need)
 <!--/@-->
 
 <!--@h3([pkg.description])-->
 ### Easily require modules, even with custom names, using strings, arrays, or hashes.
-<!--/@-->
-
-<!--@shields.flatSquare('travis','npm')-->
-[![Build Status](https://img.shields.io/travis/mralexgray/need/master.svg?style=flat-square)](https://travis-ci.org/mralexgray/need) [![npm version](https://img.shields.io/npm/v/need.svg?style=flat-square)](https://www.npmjs.com/package/need)
 <!--/@-->
 
 <!--@example('./example.js')-->
@@ -58,7 +59,6 @@ npm install --save need
 ```sh
 npm test
 ```
-
 <!--@dependencies()-->
 ## <a name="dependencies">Dependencies</a>
 
